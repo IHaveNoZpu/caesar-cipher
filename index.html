@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CaesarCipher - Tools</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>CaesarCiper - Tools</h1>
+    <p>
+      CaeserCiper - Tools is a encrypt/decrypt tools using Caesar cipher. This projects is created for practice. And CaeserCiper is not very secure you can use bruteforce to decrypt it.
+    </p>
+    <hr/>
+    <div class="text-box">
+      <label for="text">Text</label>
+      <input type="text" id="text" placeholder="Hello World"/>
+    </div>
+    <div class="shift-box">
+      <label for="shift">Shift Size</label>
+      <input type="number" id="shift" placeholder="3"/>
+    </div>
+    <!-- <div class="bruteforce-box">
+      <label for="bf">Try All Shift Size</label>
+      <input type="checkbox" id="bf"/>
+    </div> -->
+    <hr/>
+    <div class="submit">
+      <button id="encrypt" onclick="onEncrypt()">Encrypt</button>
+      <button id="decrypt" onclick="onDecrypt()">Decrypt</button>
+    </div>
+    <hr/>
+    <div class="output">
+      <label for="output">Output</label>
+      <input type="text" id="output" readonly/>
+    </div>
+    <hr/>
+    <footer>
+      © IHaveNoZpu 2022
+    </footer>
+  </body>
+</html>
